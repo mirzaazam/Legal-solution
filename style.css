@@ -22,6 +22,11 @@
     .slider-btn {
         font-size: 8px;
     }
+    
+    /*LPA area*/
+    .lpa-p{
+        width: 90% !important;
+    }   
 }
 
 /*Responsive code for medium device*/
@@ -48,10 +53,21 @@
     .slider-btn {
         font-size: 10px;
     }
+
 }
 
 /*Responsive code for Large device*/
-@media only screen and (min-width: 769px) and (max-width: 992px) {}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .margin-y{
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+}
 
 /*Responsive code for Ectra large device*/
-@media only screen and (min-width:993px) and (max-width: 1200px) {}
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+    .margin-y{
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+}

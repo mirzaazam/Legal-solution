@@ -1,0 +1,57 @@
+/*Responsive code for small device*/
+@media only screen and (max-width: 576px) {
+    .slider-title {
+        font-size: 18px !important;
+    }
+
+    .slider-p {
+        font-size: 10px !important;
+        padding: 0 0 !important;
+    }
+
+    .width-70 {
+        width: 70% !important;
+    }
+
+    .slider-input {
+        padding: 5px 10px !important;
+        font-size: 10px !important;
+        height: 30px !important;
+    }
+
+    .slider-btn {
+        font-size: 8px;
+    }
+}
+
+/*Responsive code for medium device*/
+@media only screen and (min-width:578px) and (max-width: 768px) {
+    .slider-title {
+        font-size: 20px !important;
+    }
+
+    .slider-p {
+        font-size: 13px !important;
+        padding: 0 0 !important;
+    }
+
+    .width-70 {
+        width: 70% !important;
+    }
+
+    .slider-input {
+        padding: 5px 10px !important;
+        font-size: 10px !important;
+        height: 35px !important;
+    }
+
+    .slider-btn {
+        font-size: 10px;
+    }
+}
+
+/*Responsive code for Large device*/
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
+
+/*Responsive code for Ectra large device*/
+@media only screen and (min-width:993px) and (max-width: 1200px) {}

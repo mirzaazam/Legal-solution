@@ -27,6 +27,22 @@
     .lpa-p{
         width: 90% !important;
     }   
+
+    /*card*/
+    .border-card{
+        border: 1px solid #EFF0F3;
+        border-top: 1px solid #EFF0F3 !important;
+        border-bottom: 1px solid #EFF0F3 !important;
+    }
+
+    .card-gap{
+        gap: 1rem !important;
+     }
+ 
+     .card-height{
+         height: 25rem;
+     }
+ 
 }
 
 /*Responsive code for medium device*/
@@ -51,9 +67,10 @@
     }
 
     .slider-btn {
-        font-size: 10px;
+        font-size:10px;
     }
 
+   
 }
 
 /*Responsive code for Large device*/

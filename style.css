@@ -19,6 +19,17 @@
     border-color: none;
 }
 
+.footer-font{
+    font-size: 13px;
+}
+
+/*form padding*/
+.form-p{
+    padding: 15px !important;
+}
+.form-btn-p{
+    padding: 13px;
+}
 
 
 
@@ -67,7 +78,7 @@
         height: 25rem;
     }
 
-    .qsk-sm-gap {
+    .sm-gap {
         gap: 30px;
     }
 
@@ -91,6 +102,11 @@
     .display-sm-none {
         display: none;
     }
+
+   /*Footer*/
+   .footer-w{
+    width: 100%;
+   }
 }
 
 /*Responsive code for medium device*/
@@ -128,6 +144,21 @@
         display: none;
     }
 
+    /*qsk part*/
+    .sm-gap {
+        gap: 30px;
+    }
+
+    /*Contact us*/
+    .p-md{
+        width: 75% !important;
+    }
+
+    /*Footer*/
+   .footer-w{
+    width: 100%;
+  
+   }
 }
 
 /*Responsive code for Large device*/
@@ -146,7 +177,30 @@
     .display-sm-none {
         display: none;
     }
+
+    /*card responsive*/
+    .border-lg-card{
+        border-left: 1px solid #EFF0F3 !important;
+        border-bottom: 1px solid #EFF0F3 !important;
+        border-top: none !important;
+        border-right: none !important;
+    }   
+    .border-lg-none{
+       border-bottom: 1px solid #EFF0F3 !important ;
+        border-left: none !important;
+        border-right: none !important;
+    }
+    .b-b-none{
+        border-bottom: none !important;
+    }
+
+
 }
+
+/*Footer*/
+.footer-w{
+    width: 100%;
+   }
 
 /*Responsive code for Ectra large device*/
 @media only screen and (min-width:993px) and (max-width: 1200px) {

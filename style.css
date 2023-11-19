@@ -31,12 +31,18 @@
     padding: 13px;
 }
 
-
+.font-size{
+    font-size: 12px;
+}
 
 /*Responsive code for small device*/
 @media only screen and (max-width: 576px) {
     .slider-title {
         font-size: 18px !important;
+    }
+
+    .img{
+        width: 50px;
     }
 
     .slider-p {
@@ -115,6 +121,9 @@
         font-size: 20px !important;
     }
 
+    .gap-md{
+        gap: 40px;
+    }
     .slider-p {
         font-size: 13px !important;
         padding: 0 0 !important;
@@ -168,6 +177,9 @@
         margin-bottom: 100px !important;
     }
 
+    .gap-md{
+        gap: 30px;
+    }
 
     /*carousel*/
     .carousel-w {
@@ -202,7 +214,7 @@
     width: 100%;
    }
 
-/*Responsive code for Ectra large device*/
+/*Responsive code for Extra large device*/
 @media only screen and (min-width:993px) and (max-width: 1200px) {
     .margin-y {
         margin-top: 100px !important;
